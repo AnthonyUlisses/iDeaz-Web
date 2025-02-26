@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Preload de fontes -->
+    <link 
+      rel="preload" 
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      as="style"
+    />
+
+    <!-- Preconnect para recursos externos -->
+    <link rel="preconnect" href="https://images.unsplash.com">
+    
+    <!-- Meta tags SEO -->
+    <title>iDeaz - Desenvolvimento Web Profissional</title>
+    <meta name="description" content="Criamos sites profissionais que destacam seu negócio no mundo digital. Desenvolvimento web, landing pages e e-commerce." />
+    <meta name="keywords" content="desenvolvimento web, sites profissionais, landing page, e-commerce" />
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="iDeaz - Desenvolvimento Web Profissional" />
+    <meta property="og:description" content="Criamos sites profissionais que destacam seu negócio no mundo digital." />
+    <meta property="og:url" content="https://ideaz.com.br" />
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "iDeaz",
+        "description": "Desenvolvimento Web Profissional",
+        "url": "https://ideaz.com.br",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ideaz.com.br/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
